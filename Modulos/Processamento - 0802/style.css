@@ -1,0 +1,82 @@
+body
+{
+    background-color: rgb(53, 53, 56);
+   /* font-family: poppins;*/
+}
+section
+{
+    height: 75vh;
+  /*  border:  solid red 1px;*/
+}
+
+.Nav
+{
+    height: 10vh;
+}
+
+a
+{
+    color: rgb(212, 199, 199);
+}
+footer
+{
+    height: 100px;
+    background-color: brown;
+    display: flex;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul
+{
+    display: flex;
+    list-style-type: none;
+    width: 550px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li
+{
+    text-decoration: none;
+    color : white;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 55px;
+    margin: 10px;
+    color: white;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 45px;
+    margin: 10px;
+    color: white;
+}
+
+p
+{
+    text-align: Left;
+    margin: 30px;
+    color : white;
+}
+
+.Main
+{
+    font-size: 20px;
+    height: 90vh;
+}
+
+img
+{
+    height: 250px;
+    width: auto;
+}
