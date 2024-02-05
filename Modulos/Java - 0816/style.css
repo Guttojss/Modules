@@ -6,7 +6,7 @@ body
 section
 {
     height: 75vh;
-    border:  solid red 1px;
+  /*  border:  solid red 1px;*/
 }
 
 .Nav
