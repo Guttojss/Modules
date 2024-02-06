@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Revisões</title>
+</head>
+<!--
+    Body
+-->
+<body>
+    <section class="Nav" id="nav">
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Modules</a></li>
+                <li><a href="https://guttojss.vercel.app" rel="nofollow" target="_blank">Portefolio</a></li>
+                <li><a href="https://guttojss.vercel.app/Social%20media/index.html" rel="nofollow" target="_blank">Contact me</a></li>
+            </ul>
+        </nav>
+    </section>
+    <!--
+        Main
+    -->
+        <section class="Main">
+
+        <h1>Conceitos Básicos de SQL, Java, C e C++</h1>
+        <p>Estas perguntas servem para fazer uma auto-avaliação</p>
+        <h2><abbr title="Structured Query Language">SQL</abbr></h2>
+        <ul>
+            <li>O que é SQL e qual é o seu propósito no contexto de bancos de dados?</li>
+            <p><em>SQL é uma linguagem de programação utilizada para gerenciar bases de dados</em></p>
+            <li>Forneça um exemplo de uma consulta SQL simples</li>
+            <p><em>
+                SELECT marca, ano <br>
+                FROM carros <br>
+                WHERE matricula= “20-SD-24”;<br>
+            </em></p>
+        </ul>
+        <h2>Banco de Dados Relacional</h2>
+        <ul>
+            <li>Explique o conceito de um banco de dados relacional</li>
+            <p><em>é uma base de dados onde cada tabela é interligada com outras através de uma variável única/unique como por exemplo um ID</em></p>
+            <li>Cite pelo menos três tipos de dados que podem ser armazenados em um banco de dados relacional</li>
+            <p><em>Int,Varchar,Bool</em></p>
+        </ul>
+        <h2>Java</h2>
+        <ul>
+            <li>Descreva brevemente a linguagem de programação Java</li>
+            <p><em>Java é uma linguagem de programação orientada a objetos e desenvolvida para ser independente de plataforma</em></p>
+            <li>Mencione pelo menos três características-chave de Java</li>
+            <p><em>Portabilidade (Write Once, Run Anywhere - WORA) <br>
+                Orientação a Objetos <br>
+                Gerenciamento automático de memória (coleta de lixo) <br>
+                </em></p>
+        </ul>
+        <h2>C e C++</h2>
+        <ul>
+            <li>Quais são as principais diferenças entre as linguagens de programação C e C++?</li>
+            <p><em>C++ é uma extensão de C que inclui recursos adicionais, como programação orientada a objetos. C++ mantém a compatibilidade com C, mas oferece algumas funcionalidades a mais</em></p>
+            <li>Dê exemplos de situações em que cada uma dessas linguagens seria mais apropriada</li>
+            <p><em>C é mais usado para sistemas operacionais e desenvolvimento de baixo nível. C++ é mais adequado para projetos que precisam de programação orientada a objetos, como por exemplo desenvolvimento de jogos.</em></p>
+        </ul>
+        <h3>Variáveis</h3>
+        <ul>
+            <li>Como você declara uma variável em C?</li>
+            <p><em>int idade;</em></p>
+            <li>E em C++?</li>
+            <p><em>int idade;</em></p>
+        </ul>
+        <h2>Estruturas de Controle de Fluxo</h2>
+        <ul>
+            <li>Mencione três estruturas de controle de fluxo utilizadas em Java</li>
+            <p><em>if-else,switch,for,While-do,do-while</em></p>
+            <li>E Em C++</li>
+            <p><em>if-else,switch,for,While-do,do-while</em></p>
+        </ul>
+        <h2>Manipulação de Strings</h2>
+        <ul>
+            <li>Explique como você manipularia strings em Java.</li>
+            <p><em>Através dos métodos por exemplo : isEmpty(), length(),toLowerCase(), entre outros
+            </em></p>
+            <li>E em C e C++?</li>
+            <p><em>Em C, strings são arrays de caracteres, e em C++, você pode usar a classe std::string para manipulação de strings.</em></p>
+        </ul>
+        <h2>Operadores Relacionais e Lógicos</h2>
+        <ul>
+            <li>Liste pelo menos três operadores relacionais em C++</li>
+            <p><em>
+                == (igual) <br>
+                != (diferente) <br>
+                > (maior) <br>
+                < (menor) <br>
+                =< (menor ou igual) <br>
+                >= (maior ou igual) <br>    
+            </em></p>
+            <li>Como os operadores lógicos são utilizados em Java?</li>
+            <p><em>&& (E), || (OU) e ! (diferente)
+            </em></p>
+        </ul>
+        <h2>Alocação de Memória</h2>
+        <ul>
+            <li>Como a alocação de memória é tratada em C e C++? </li>
+            <p><em>Em C, você utiliza malloc() e free() para alocação e liberação de memória dinâmica. Em C++, pode-se usar new e delete</em></p>
+            <li>Existe alguma diferença significativa entre os dois?</li>
+            <p><em>A principal diferença é que em C++, o uso de new e delete é preferível, pois eles chamam automaticamente os construtores e destrutores dos objetos.
+            </em></p>
+        </ul>
+        <h2>Comandos SQL para CRUD</h2>
+        <ul>
+            <li>Liste os comandos SQL básicos para realizar operações CRUD (Create, Read, Update, Delete) em um banco de dados</li>
+            <p><em>
+                <strong>Create:</strong> <br> 
+                INSERT INTO Carros (matrícula,marca) <br> 
+                VALUES (78-XD-15,Tesla); <br>
+                <br>
+                <strong>Read:</strong> <br> 
+                SELECT * FROM carros <br>
+                WHERE ano=2001; <br>
+                <br>
+                <strong>Update: </strong> <br>
+                UPDATE carros <br>
+                SET cor= preto <br>
+                WHERE matricula=”70–DX-95”; <br>
+                <strong>Delete: </strong> <br>
+                DELETE FROM carros <br>
+                WHERE vendido=true; <br>
+            </em></p>
+        </ul>
+        </p>
+    </section>
+     <!--
+        Footer
+    -->
+    <footer>
+        <div class="Footer">
+            <p>© Guttojss 2023. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

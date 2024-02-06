@@ -1,0 +1,92 @@
+body
+{
+    background-color: rgb(53, 53, 56);
+   /* font-family: poppins;*/
+}
+section
+{
+    height: 75vh;
+   /* border:  solid red 1px;*/
+}
+.Nav
+{
+    height: 10vh;
+}
+.Main
+{
+    height: 425vh;
+}
+
+a
+{
+    color: rgb(212, 199, 199);
+}
+
+footer
+{
+    height: 100px;
+    background-color: brown;
+    display: flex;
+
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Nav ul
+{
+    display: flex;
+    list-style-type: none;
+    width: 550px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li
+{
+    text-decoration: none;
+    color : white;
+    font-size: 20px;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 60px;
+    margin: 10px;
+    color: white;
+}
+
+h2
+{
+    text-align: left;
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+
+h3
+{
+    text-align: left;
+    font-size: 30px;
+    margin: 10px;
+    color: white;
+}
+
+p
+{
+    text-align: Left;
+    margin: 30px;
+    color : white;
+    font-size: 20px;
+}
+
+.Footer
+{
+    text-align: center;
+    color : white;
+    font-size: 20px;
+}
