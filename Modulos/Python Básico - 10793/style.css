@@ -5,7 +5,7 @@ body
 }
 section
 {
-    height: 125vh;
+    height: 230vh;
    /* border:  solid red 1px;*/
 }
 
@@ -59,31 +59,12 @@ p
 {
     text-align: Left;
     margin: 30px;
+    font-size: 25px;
     color : white;
 }
 
-.Modules
-{
-    color : white;
-    font-size : 25px;
-}
-/*
-Projects
-*/
-.Linha
-{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
 
-.Coluna
-{
-    flex: 50%;
-    padding: 0 4px;
-}
-
-.Coluna img
+img
 {
     margin: 4%;
     vertical-align: middle;
@@ -97,4 +78,8 @@ Projects
     text-align: center;
     color : white;
     font-size: 20px;
+}
+
+.Calc{
+    width: 40%;
 }
