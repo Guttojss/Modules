@@ -1,0 +1,100 @@
+body
+{
+    background-color: rgb(53, 53, 56);
+   /* font-family: poppins;*/
+}
+section
+{
+    height: 125vh;
+   /* border:  solid red 1px;*/
+}
+
+.Main
+{
+    height: 10vh;
+}
+
+a
+{
+    color: rgb(212, 199, 199);
+}
+footer
+{
+    height: 100px;
+    background-color: brown;
+    display: flex;
+
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul
+{
+    display: flex;
+    list-style-type: none;
+    width: 550px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li
+{
+    text-decoration: none;
+    color : white;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 90px;
+    margin: 10px;
+    color: white;
+}
+
+p
+{
+    text-align: Left;
+    margin: 30px;
+    color : white;
+}
+
+.Modules
+{
+    color : white;
+    font-size : 25px;
+}
+/*
+Projects
+*/
+.Linha
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.Coluna
+{
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.Coluna img
+{
+    margin: 4%;
+    vertical-align: middle;
+    width: 15%;
+    border-radius: 1vw;
+
+}
+
+.Footer
+{
+    text-align: center;
+    color : white;
+    font-size: 20px;
+}
