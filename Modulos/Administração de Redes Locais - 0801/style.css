@@ -1,15 +1,14 @@
 body
 {
     background-color: rgb(53, 53, 56);
-   /* font-family: poppins;*/
-}
-section
-{
-    height: 125vh;
-   /* border:  solid red 1px;*/
 }
 
-.Main
+section
+{
+    height: 200vh;
+}
+
+.Nav
 {
     height: 10vh;
 }
@@ -18,12 +17,12 @@ a
 {
     color: rgb(212, 199, 199);
 }
+
 footer
 {
     height: 100px;
     background-color: brown;
     display: flex;
-
 }
 
 nav
@@ -50,7 +49,15 @@ li
 h1
 {
     text-align: center;
-    font-size: 90px;
+    font-size: 55px;
+    margin: 10px;
+    color: white;
+}
+
+h2
+{
+    text-align: center;
+    font-size: 45px;
     margin: 10px;
     color: white;
 }
@@ -62,39 +69,20 @@ p
     color : white;
 }
 
-.Modules
+.Main
 {
-    color : white;
-    font-size : 25px;
-}
-/*
-Projects
-*/
-.Linha
-{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.Coluna
-{
-    flex: 50%;
-    padding: 0 4px;
-}
-
-.Coluna img
-{
-    margin: 4%;
-    vertical-align: middle;
-    width: 15%;
-    border-radius: 1vw;
-
-}
-
-.Footer
-{
-    text-align: center;
-    color : white;
     font-size: 20px;
+    height: 175vh;
 }
+
+img
+{
+    height: 200px;
+    width: auto;
+}
+
+  a
+  {
+    justify-content: center;
+    display: flex;  
+  }
