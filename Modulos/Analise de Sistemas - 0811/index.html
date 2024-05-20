@@ -21,42 +21,73 @@
             <p>No modulo de analise de sistemas, aprendemos um pouco sobre o ciclo de vida de um projecto e de alguns diagramas, tais como : De classes,de sequência, de colaboração e  de componentes.
                 <a href="https://catalogo.anqep.gov.pt/ufcdDetalhe/793" rel="nofollow" target="_blank">para saber mais, clique aqui</a>
             </p>
-            <p>Para concluir este modulo tivemos que fazer alguns fluxogramas, como por exemplo : </p>
-            <img src="#" alt="imagem de um fluxograma de uma base de dados de uma biblioteca">
-            <p>Este Fluxograma de uma base de dados de uma biblioteca, possuimos 3 tabelas, Livro,Cliente e Compra. Cada tabela possui vários atributos,estes são, algumas informações que as tabelas possuem.</p>
+            <p>Para concluir este modulo tivemos que aprender sobre alguns diagramas e criar um á nossa escolha, alguns dos diagramas que conheci neste módulo foram : </p>
+            <li>Fluxograma</li>
+            <li>Classses UML</li>
+            <li>Bancos de Dados - Entidade Relacionamento</li>
+            </div>
+
+            <div>
+            <img src="images/Diagrama.png" alt="imagem de um diagrama entidade-relacionamento">
+            <p>Este Diagrama de entidade-relacionamento de uma base de dados de uma agencia imobiliaria , possui 5 tabelas, Agente Imobiliário, Proprietário, Contrato, Cliente e Imovél.</p>
+            </div>
+
             <!--Container-->
             <div class="Container">
-            <p>No caso do Livro, estes dados são : 
-                <li>Titulo</li>
-                <li>Autor</li>
-                <li>Genero</li>
-                <li>Editora</li>
-                <li>Data de Lançamento</li>
-                <li>Código de Barras</li>
+            <p>No caso da tabela Agente Imobiliário, estes atributos são : 
+                <li>Agente ID</li>
+                <li>Nome</li>
+                <li>Morada</li>
+                <li>Número Telefone</li>
+                <li>Email</li>
             </p>
         </div>
             <!--Container-->
             <div class="Container">
             <p>
-                No caso da tabela Cliente, os atributos são : 
+                No caso da tabela Proprietário, os atributos são : 
+                <li>Proprietário ID</li>
                 <li>Nome</li>
-                <li>Número de Telefone</li>
                 <li>Morada</li>
+                <li>Número de Telefone</li> 
                 <li>E-Mail</li>
-                <li>Id Cliente</li>
             </p>
         </div>
             <!--Container-->
             <div class="Container">
-            <p>No caso da tabela Compra, os atributos são : 
-                <li>Id_Cliente</li>
-                <li>Código de barras</li>
-                <li>Id_Compra</li>
-                <li>Data Atual</li>
-                <li>Data de retorno</li>
-                <li>Data de Devolução</li>
+            <p>No caso da tabela COntrato, os atributos são : 
+                <li>Contrato ID</li>
+                <li>Data Inicio</li>
+                <li>Periodo</li>
+                <li>Tipo</li>
+                <li>Cliente ID</li>
+                <li>Imovél ID</li>
+                <li>Agente ID</li>
+                <li>Proprietário ID</li>
             </p>
         </div>
+            <!--Container-->
+            <div class="Container">
+                <p>No caso da tabela Cliente, os atributos são : </p>
+                <li>Cliente ID</li>
+                <li>Nome</li>
+                <li>Morada</li>
+                <li>Numero de Telefone</li>
+                <li>Email</li>
+            </div>
+            <!--Container-->
+            <div class="Container">
+                <p>No caso da tabela Imovél, os atributos são :</p>
+                <li>Imovél ID</li>
+                <li>Descrição</li>
+                <li>Valor</li>
+                <li>Morada</li>
+                <li>Situação</li>
+                <li>Zona</li>
+            </div>
+
+            <p>Como podemos observar na imagem, os IDs são Primary Keys na suas próprias tabelas e nas externas, são Foreign Keys, as setas na imagem indicam qual tabela interagem entre si.
+            </p>
         </div>
     </section>
 
