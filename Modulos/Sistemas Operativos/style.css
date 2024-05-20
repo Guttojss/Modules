@@ -1,0 +1,108 @@
+body
+{
+    background-color: rgb(53, 53, 56);
+   /* font-family: poppins;*/
+}
+section
+{
+    height: 375vh;
+   /* border:  solid red 1px;*/
+}
+
+.Main
+{
+    height: 10vh;
+}
+
+a
+{
+    color: rgb(212, 199, 199);
+}
+
+footer
+{
+    height: 100px;
+    background-color: brown;
+    display: flex;
+
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul
+{
+    display: flex;
+    list-style-type: none;
+    width: 550px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li
+{
+    text-decoration: none;
+    color : white;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 90px;
+    margin: 10px;
+    color: white;
+}
+
+h2
+{
+    text-align: left;
+    font-size: 50px;
+    margin: 10px;
+    color: white;
+}
+
+
+img
+{
+    margin: 4%;
+    vertical-align: middle;
+    width: 15%;
+    border-radius: 1vw;
+
+}
+
+.Footer
+{
+    text-align: center;
+    color : white;
+    font-size: 20px;
+}
+
+.Calc{
+    width: 40%;
+}
+
+p
+{
+    text-align: Left;
+    margin: 30px;
+    font-size: 25px;
+    color : white;
+}
+
+.filosofia
+{
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    margin: 30px;
+}
+
+.guido
+{
+    width: 15%;
+    object-position: right;
+}
