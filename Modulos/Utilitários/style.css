@@ -4,10 +4,10 @@ body
 }
 section
 {
-    height: 200vh;
+    height: 150vh;
 }
 
-.Main
+.Nav
 {
     height: 10vh;
 }
@@ -56,12 +56,9 @@ h1
 
 h2
 {
-    text-align: left;
-    font-size: 35px;
-    margin: 10px;
     color: white;
+    font-size: 40px;
 }
-
 
 img
 {
@@ -85,4 +82,18 @@ p
     margin: 30px;
     font-size: 25px;
     color : white;
+}
+
+.Main
+{
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: left;
+}
+
+.Sub
+{
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
 }

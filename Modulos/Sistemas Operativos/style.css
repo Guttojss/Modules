@@ -1,15 +1,13 @@
 body
 {
     background-color: rgb(53, 53, 56);
-   /* font-family: poppins;*/
 }
 section
 {
-    height: 375vh;
-   /* border:  solid red 1px;*/
+    height: 150vh;
 }
 
-.Main
+.Nav
 {
     height: 10vh;
 }
@@ -24,7 +22,6 @@ footer
     height: 100px;
     background-color: brown;
     display: flex;
-
 }
 
 nav
@@ -46,6 +43,7 @@ li
 {
     text-decoration: none;
     color : white;
+    font-size: 25px;
 }
 
 h1
@@ -58,12 +56,9 @@ h1
 
 h2
 {
-    text-align: left;
-    font-size: 50px;
-    margin: 10px;
     color: white;
+    font-size: 40px;
 }
-
 
 img
 {
@@ -71,7 +66,6 @@ img
     vertical-align: middle;
     width: 15%;
     border-radius: 1vw;
-
 }
 
 .Footer
@@ -81,28 +75,10 @@ img
     font-size: 20px;
 }
 
-.Calc{
-    width: 40%;
-}
-
 p
 {
     text-align: Left;
     margin: 30px;
     font-size: 25px;
     color : white;
-}
-
-.filosofia
-{
-    color: white;
-    text-align: left;
-    font-size: 25px;
-    margin: 30px;
-}
-
-.guido
-{
-    width: 15%;
-    object-position: right;
 }
