@@ -1,0 +1,82 @@
+body
+{
+    background-color: rgb(53, 53, 56);
+   /* font-family: poppins;*/
+}
+
+section
+{
+    height: 75vh;
+   /* border:  solid red 1px;*/
+}
+
+.Main
+{
+    height: 10vh;
+}
+
+.Main a
+{
+    color: rgb(212, 199, 199);
+}
+
+.Main nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Main ul
+{
+    display: flex;
+    list-style-type: none;
+    width: 550px;
+    justify-content: space-around;
+    font-size: 30px;
+
+}
+
+.Main li
+{
+    text-decoration: none;
+    color : white;
+}
+
+ul,li
+{
+color: white;
+font-size: 25px;
+text-decoration: none
+}
+
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+    color: white;
+}
+
+p
+{
+    text-align: Left;
+    margin: 30px;
+    color : white;
+    font-size: 25px;
+}
+/*
+    Footer
+*/
+footer
+{
+    height: 100px;
+    background-color: brown;
+    display: flex;
+}
+
+.Footer p
+{
+    text-align: center;
+    color : white;
+    font-size: 20px;
+}
